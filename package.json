@@ -1,0 +1,20 @@
+{
+  "name": "zulo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^6.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Compile:sass":"node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Aimee Redmond",
+  "license": "ISC"
+}

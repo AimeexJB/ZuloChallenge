@@ -1,0 +1,99 @@
+/* ------------------------------------------- */
+/* BASIC SETUP*/
+/* ------------------------------------------- */
+html {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-weight: 300;
+  text-rendering: optimizeLegibility; }
+
+.clearfix {
+  zoom: 1; }
+
+.clearfix::after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden; }
+
+.container {
+  display: flex;
+  /* or inline-flex */
+  flex-direction: column; }
+
+/* ------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ------------------------------------------- */
+h3 {
+  color: red; }
+
+.btn {
+  background-color: #f1c40f;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-decoration: none;
+  text-align: center;
+  margin: 4px 2px;
+  font-size: 12px;
+  font-weight: 700; }
+
+/* ------------------------------------------- */
+/* HEADER */
+/* ------------------------------------------- */
+header {
+  background-color: #fff;
+  height: 500px; }
+
+.logo {
+  float: left;
+  margin-top: 20px;
+  margin-left: 100px; }
+
+.main-nav {
+  float: right;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 12px; }
+
+.main-nav li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  margin-left: 40px;
+  color: #3c3d3d;
+  font-weight: 400; }
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+  color: #3c3d3d; }
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #f1c40f; }
+
+/* ------------------------------------------- */
+/* EXPLORE */
+/* ------------------------------------------- */
+.section-explore {
+  background-color: #ecf0f1; }
+
+.explore-chair {
+  width: 350px;
+  height: auto;
+  margin-left: 100px; }
+
+.explore-message {
+  float: right;
+  margin-right: 40px;
+  margin-top: 100px; }
+
+/* ------------------------------------------- */
+/* HOT */
+/* ------------------------------------------- */
+.title {
+  display: inline-block; }
