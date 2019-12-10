@@ -16,13 +16,12 @@
 
     <body>
 
-        <div class="container">
+        <header>
 
-            <nav>
-                <div class="row clearfix">
+            <!-- <h3 class="logo">ZULO</h3> -->
+            <img src="images/images/logo-dark.png" alt="logo dark">
 
-                    <h3 class="logo">ZULO</h3>
-                    
+            <nav class="clearfix">
                     <ul class="main-nav">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">New In</a></li>
@@ -30,41 +29,155 @@
                         <li><a href="#">Lighting</a></li>
                         <li><a href="#">Rugs</a></li>
                         <li><a href="#">Accesories</a></li>
-                        <li><a href="#"><ion-icon name="contact"></ion-icon></a></li>
-                        <li><a href="#"><ion-icon name="basket"></ion-icon></a></li>
-                        <li><a href="#"><ion-icon name="search"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="contact" class="icon-top"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="basket" class="icon-top"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="search" class="icon-top"></ion-icon></a></li>
                     </ul>
-
-                </div>
             </nav> <!-- Closing NAV-->
 
-            <section class="section-explore row">
+        </header> <!-- Closing Header-->
+        
 
-                <img src="images/Lounge-Chair.png" alt="Lounge Chair" class="explore-chair">
+        <section class="section-explore">
 
-                <div class="explore-message">
+            <!-- <img src="images/Lounge-Chair.png" alt="Lounge Chair" class="explore-chair"> -->
+            <img src="images/images/melo-chair.png" alt="Melo Chair" class="explore-chair">
 
-                    <h2>Discover the brand new <br > Melo Chair Range</h2>
-                    <p>Simplistic design with a balance <br >of fabric and wood</p>
-                    <br >
-                    <a class="btn btn-full" href="#">EXPLORE RANGE</a>
+            <div class="explore-message">
 
+                <h2>Discover the brand new <br > Melo Chair Range</h2>
+                <p>Simplistic design with a balance <br >of fabric and wood</p>
+                <br >
+                <a class="btn btn-full" href="#">EXPLORE RANGE</a>
+
+            </div>
+            
+        </section> <!-- Closing Section Explore-->
+
+
+        <section class="section-hot">
+
+            <div class="title-section">
+                <h2 class="title">Hot right now</h2>
+                <ion-icon name="arrow-back" class="icon-hot"></ion-icon>
+                <ion-icon name="arrow-forward" class="icon-hot"></ion-icon>
+            </div>
+
+            <div class="hot-pictures">
+                <div class="hot-pictures-row">
+                    <!-- <img src="images/side-table.PNG" alt="side table" >
+                    <img src="images/lounge-chair2.png" alt="Lounge chair 2" >
+                    <img src="images/Wardrobe.png" alt="wardrobe" > -->
+
+                    <img src="images/images/cairn-side-table.png" alt="side table" >
+                    <img src="images/images/kubrick-chair.png" alt="Lounge chair 2" >
+                    <img src="images/images/dot-wardrobe.png" alt="wardrobe" >
+                </div>
+            </div>
+
+        </section> <!-- Closing Section Hot -->
+
+
+        <section class="section-featured">
+
+            <div class="featured-items">
+                
+                <div class="row1">
+                    <div class="f-item-text">
+                        <h2>Featured Items</h2>
+                        <p>view all</p>
+                    </div>
+
+                    <div class="f-item">
+                        <!-- <img src="images/lounge-chair3.png" alt="lounge chair 3" > -->
+                    </div>
+                </div>
+
+                <div class="row2">
+                    <div class="f-item">
+                        <!-- <img src="images/lounge-chair3.png" alt="lounge chair 3" > -->
+                    </div>
+
+                    <div class="f-item">
+                        <!-- <img src="images/lounge-chair3.png" alt="lounge chair 3" > -->
+                    </div>
                 </div>
                 
-            </section> <!-- Closing Section Explore-->
+            </div>
+
+            <div class="featured-chair">
+                <!-- <img src="images/lounge-chair3.png" alt="lounge chair 3" > -->
+                <img src="images/images/karmello-side-chair.png" alt="lounge chair 3" >
+            </div>
+
+        </section> <!-- Closing Section Featured -->
 
 
-            <section class="section-hot row">
+        <section class="section-different">
 
-                <div class="title">
-                    <h2>Hot right now</h2>
-                    <ion-icon name="arrow-back"></ion-icon>
-                    <ion-icon name="arrow-forward"></ion-icon>
-                </div>
+            <div class="title-different">
+                <h2 class="title">How we are different</h2>
+            </div>
 
-            </section> <!-- Closing Section Hot -->
+            <div class="different-message">
 
-        </div> <!-- Closing Container -->
-        
+                <p>
+                    Here at Zulo we believe that design simplicity 
+                    is the key. Why does it have to be difficult? All of our 
+                    products are made to the highest of standard and
+                    quite simply dont leave our factory without passing
+                    out rigorous quality control tests. Only then do we 
+                    send out your purchase.
+                    <br >
+                    <br >
+                    Using only the best environmentally controlled
+                    materials puts Zulo above all the competition.
+                    <br >
+                    <br >
+                    This is why you should shop Zulo
+                </p>
+
+            </div>
+
+        </section> <!-- Closing Section Different -->
+
+
+        <section class="section-contact">
+
+            <div class="contact-message">
+
+                <h2>Stay in touch <br > with us</h2>
+                <p>Recieve exclusive offers and <br > promotions by subscribing</p>
+                
+                <p>
+                    <input type="text" name="email" placeholder="Enter your email address"> 
+                </p>
+                <a class="btn btn-full btn-end" href="#">Subscribe</a>
+
+            </div>
+
+            <div class="contact-image">
+                <img src="images/images/living-room.jpg" >
+            </div>
+
+        </section> <!-- Closing Section Contact -->
+
+
+        <footer>
+
+            <nav class="clearfix">
+                    <ul class="end-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+            </nav> <!-- Closing NAV-->
+
+            <img src="images/images/logo-light.png" alt="logo light">
+
+        </footer>
+
+
     </body>
 </html>
