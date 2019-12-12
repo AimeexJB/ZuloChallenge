@@ -1,6 +1,3 @@
-/* ------------------------------------------- */
-/* BASIC SETUP*/
-/* ------------------------------------------- */
 html {
   font-family: 'Roboto', 'Arial', sans-serif;
   font-weight: 300;
@@ -19,6 +16,9 @@ html {
 /* ------------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ------------------------------------------- */
+h1 {
+  color: red; }
+
 h3 {
   color: red; }
 
@@ -32,6 +32,10 @@ h3 {
   margin: 4px 2px;
   font-size: 12px;
   font-weight: 700; }
+
+.title {
+  display: flex;
+  text-decoration: underline #ecf0f1; }
 
 /* ------------------------------------------- */
 /* HEADER */
@@ -102,6 +106,7 @@ header img {
 .section-hot {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   margin-top: 50px; }
 
@@ -109,12 +114,9 @@ header img {
   display: flex;
   justify-content: space-evenly; }
 
-.title {
-  display: flex;
-  text-decoration: underline #ecf0f1; }
-
 .icon-hot {
   display: flex;
+  justify-content: right;
   margin-top: 40px; }
 
 .hot-pictures-row {
@@ -124,7 +126,7 @@ header img {
 
 .hot-pictures img {
   width: 20%;
-  height: 350px;
+  height: 330px;
   margin-top: 40px;
   border: 10px solid #ecf0f1; }
 
@@ -145,7 +147,6 @@ header img {
   justify-content: center; }
 
 .f-item {
-  background: white;
   width: 150px;
   height: 150px;
   margin: 5px 5px;
@@ -154,7 +155,8 @@ header img {
 .f-item-text {
   width: 150px;
   height: 150px;
-  margin: 5px 5px; }
+  margin: 5px 5px;
+  padding: 9px; }
 
 .f-item img {
   width: 150px;
@@ -203,7 +205,7 @@ header img {
   height: fit-content;
   margin-top: 50px;
   padding: 100px;
-  padding-bottom: 61px;
+  padding-bottom: 28px;
   background-color: #ecf0f1; }
 
 .contact-image img {
